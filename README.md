@@ -22,10 +22,6 @@ Python-based strategies — working through algorithmic trading from first princ
 
 ---
 
-## Stack
-
-Pine Script · Python · JavaScript · HTML/CSS
-
 ## Elsewhere
 
 [LinkedIn](https://www.linkedin.com/in/jaden-machado)
