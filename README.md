@@ -8,7 +8,7 @@ Most of what I know about finance came from shipping things rather than reading 
 
 ## Projects
 
-### [Blindspot](https://github.com/jadenmachado2009/blindspot) · [live demo](https://jadenmachado2009.github.io/blindspot)
+### [Blindspot](https://useblindspot.github.io/)
 A behavioural bias intervention tool. It profiles your cognitive biases, then checks you at the *moment* of a decision rather than after it. Trading and everyday modes. Grounded in prospect theory, mental accounting, and narrative economics. Runs entirely in the browser — no data leaves the device.
 
 ### [original-pine-strategies](https://github.com/jadenmachado2009/original-pine-strategies)
