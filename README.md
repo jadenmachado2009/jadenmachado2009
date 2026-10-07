@@ -8,6 +8,11 @@ Most of what I know about finance came from shipping things rather than reading 
 
 ## Projects
 
+### [NQ Algo Strategy Lab](https://github.com/jadenmachado2009/nq-algo-strategy-lab) · [v3](https://github.com/jadenmachado2009/nq-algo-strategy-lab/releases/tag/v3) · [v2](https://github.com/jadenmachado2009/nq-algo-strategy-lab/releases/tag/v2)
+A testing pipeline for futures strategies, built on the assumption that my own ideas are worthless until evidence says otherwise. It has retired one strategy on ~1,500 trades, failed to validate a second, and — the part I'm most pleased with — **rejected its own best search result**: a strategy showing profit factor 1.42 over 1,772 trades, which a null test proved was indistinguishable from searching 450 combinations on pure noise (p = 0.72).
+
+What came out of it wasn't an edge. It was the arithmetic underneath: a prop account is a convex payoff, so the binding constraint is risk geometry, not prediction. A trailing drawdown stops moving once you're far enough ahead, which makes variance expensive before that point and cheap after it — worth more than any entry signal I tested. [`MATH.md`](https://github.com/jadenmachado2009/nq-algo-strategy-lab/blob/main/research/MATH.md) has the derivations; [`PROP_PLAYBOOK.md`](https://github.com/jadenmachado2009/nq-algo-strategy-lab/blob/main/research/PROP_PLAYBOOK.md) has the spec. Nothing in it is profitable, which is the finding.
+
 ### [Blindspot](https://useblindspot.github.io/)
 A behavioural bias intervention tool. It profiles your cognitive biases, then checks you at the *moment* of a decision rather than after it. Trading and everyday modes. Grounded in prospect theory, mental accounting, and narrative economics. Runs entirely in the browser — no data leaves the device.
 
