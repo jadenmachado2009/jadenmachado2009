@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 260" width="1200" height="260">
+  <rect width="1200" height="260" rx="12" fill="#0a0a0a"/>
+  <rect x="0.5" y="0.5" width="1199" height="259" rx="12" fill="none" stroke="#1f1f1f"/>
+
+  <path d="M640 200 L700 188 L740 194 L790 170 L840 176 L890 150 L940 156 L990 124 L1040 130 L1090 100 L1140 84"
+        fill="none" stroke="#3a3a3a" stroke-width="1.5" stroke-linejoin="round"
+        stroke-dasharray="700" stroke-dashoffset="700">
+    <animate attributeName="stroke-dashoffset" from="700" to="0" dur="2.4s" fill="freeze"/>
+  </path>
+  <circle cx="1140" cy="84" r="3" fill="#e6e6e6" opacity="0">
+    <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.9;1" dur="2.6s" fill="freeze"/>
+  </circle>
+
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace">
+    <text x="64" y="146" fill="#f5f5f5" font-size="48" font-weight="600" letter-spacing="-1">Jaden Machado<tspan fill="#737373">▌<animate attributeName="opacity" values="1;0;1" dur="1.1s" repeatCount="indefinite"/></tspan></text>
+  </g>
+</svg>
