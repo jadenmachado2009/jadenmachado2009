@@ -2,7 +2,7 @@
 
 <br>
 
-A2 student at JBCN International, Mumbai. I learn finance by shipping strategies, then watching them break.
+
 
 <br>
 
