@@ -15,6 +15,9 @@ Profiles your cognitive biases, then checks you at the *moment* of a decision, n
 ### [SnapCal](https://snapcal-pi.vercel.app)
 Photograph a meal, get calories and macros back. Gemini estimates the portion and a weight log projects your target date. [`code`](https://github.com/jadenmachado2009/snapcal)
 
+### [Vigil](https://vigil-strategy-app.vercel.app)
+Write the rules you trade by, then check a setup against them before you click buy. The model only reads the chart; a rules engine decides, and anything it cannot verify is never counted as a pass. [`code`](https://github.com/jadenmachado2009/vigil)
+
 <br>
 
 **Also** — [original-pine-strategies](https://github.com/jadenmachado2009/original-pine-strategies) · [public-strategy-testing-pine](https://github.com/jadenmachado2009/public-strategy-testing-pine) · [learning-python-trading-strategies](https://github.com/jadenmachado2009/learning-python-trading-strategies)
